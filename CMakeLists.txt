@@ -11,7 +11,7 @@ pico_sdk_init()
 
 
 add_executable(hello_world
-    src/main.cpp src/interrrupts.c
+    src/main.cpp 
 )
 
 # Add pico_stdlib library which aggregates commonly used features
